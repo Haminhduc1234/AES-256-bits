@@ -1,0 +1,27 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../AES_4.srcs/sources_1/new/AES.vhd" \
+"../../../../AES_4.srcs/sources_1/new/addRoundKey.vhd" \
+"../../../../AES_4.srcs/sources_1/new/control256.vhd" \
+"../../../../AES_4.srcs/sources_1/new/control_DEC_256.vhd" \
+"../../../../AES_4.srcs/sources_1/new/invMixCol.vhd" \
+"../../../../AES_4.srcs/sources_1/new/invMixColumns.vhd" \
+"../../../../AES_4.srcs/sources_1/new/invRounds.vhd" \
+"../../../../AES_4.srcs/sources_1/new/invSbox.vhd" \
+"../../../../AES_4.srcs/sources_1/new/invShiftRows.vhd" \
+"../../../../AES_4.srcs/sources_1/new/invSubBytes.vhd" \
+"../../../../AES_4.srcs/sources_1/new/keyExp256.vhd" \
+"../../../../AES_4.srcs/sources_1/new/keyRAM256.vhd" \
+"../../../../AES_4.srcs/sources_1/new/mixCol.vhd" \
+"../../../../AES_4.srcs/sources_1/new/mixColumns.vhd" \
+"../../../../AES_4.srcs/sources_1/new/rounds.vhd" \
+"../../../../AES_4.srcs/sources_1/new/sbox.vhd" \
+"../../../../AES_4.srcs/sources_1/new/sbox4.vhd" \
+"../../../../AES_4.srcs/sources_1/new/shift256.vhd" \
+"../../../../AES_4.srcs/sources_1/new/shift256dec.vhd" \
+"../../../../AES_4.srcs/sources_1/new/shiftRows.vhd" \
+"../../../../AES_4.srcs/sources_1/new/subBytes.vhd" \
+"../../../../AES_4.srcs/sources_1/new/tb.vhd" \
+
+# Do not sort compile order
+nosort
